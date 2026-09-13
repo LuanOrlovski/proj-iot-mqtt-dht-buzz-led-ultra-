@@ -10,8 +10,8 @@ import dht #import para o DHT
 SSID = " " #  MUDAR PARA NOME DA REDE 
 SENHA = " " # <-- Wi-Fi: senha 
 BROKER = "broker.hivemq.com" 
-PORTA = 1883
-CLIENT_ID = "esp32-grupo6-zxcvbnm123" 
+PORTA = 
+CLIENT_ID = " " 
 TOPICO_ASSINAR = "pucprGrupo06/+/Comandos" 
 
 # led da ESP32 pino 2
