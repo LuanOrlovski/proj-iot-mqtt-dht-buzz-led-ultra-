@@ -5,9 +5,9 @@ import json
 # ---- Configuracoes ----
 BROKER = "broker.hivemq.com"
 PORTA = 1883
-TOPICO_PUBLICAR = "pucprGrupo06/grupo_6/Comandos" # O PC publica comandos aqui 
-TOPICO_ASSINAR = "pucprGrupo06/+/dados"     # O PC escuta os dados dos sensores aqui 
-CLIENT_ID = "pc-grupo6-zxcvbnm" 
+TOPICO_PUBLICAR = "" # O PC publica comandos aqui 
+TOPICO_ASSINAR = ""     # O PC escuta os dados dos sensores aqui 
+CLIENT_ID = "" 
 # ---- Callbacks ----
 
 def on_connect(client, userdata, flags, rc, properties):
